@@ -1,5 +1,33 @@
 # microsoft/homebrew-git
 
+The Homebrew Tap containing Microsoft's Git ecosystem products.
+
+## Tapping the repository
+
+Simply run the following command to tap this repository:
+
+```bash
+brew tap microsoft/git
+```
+
+## Available packages
+
+The following packages are available in this Tap:
+
+### Formulae
+
+Install with `brew install <formula>`
+
+- _none_
+
+### Casks
+
+Install with `brew cask install <cask>`
+
+- _none_
+
+Please report any product bugs and issues in their respective projects.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
