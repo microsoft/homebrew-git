@@ -18,7 +18,7 @@ The following packages are available in this Tap:
 
 Install with `brew install <formula>`
 
-- _none_
+- [Microsoft Git](https://github.com/microsoft/git) (`microsoft-git`)
 
 ### Casks
 
