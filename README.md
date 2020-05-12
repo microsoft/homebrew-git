@@ -24,7 +24,7 @@ Install with `brew install <formula>`
 
 Install with `brew cask install <cask>`
 
-- _none_
+- [Git Credential Manager Core](https://aka.ms/gcmcore) (`git-credential-manager-core`)
 
 Please report any product bugs and issues in their respective projects.
 
