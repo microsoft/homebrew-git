@@ -25,6 +25,7 @@ Install with `brew install <formula>`
 Install with `brew cask install <cask>`
 
 - [Git Credential Manager Core](https://aka.ms/gcmcore) (`git-credential-manager-core`)
+- [Scalar](https://github.com/microsoft/scalar) (`scalar`)
 
 Please report any product bugs and issues in their respective projects.
 
