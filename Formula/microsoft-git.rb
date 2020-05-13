@@ -7,6 +7,11 @@ class MicrosoftGit < Formula
 	url "https://github.com/microsoft/git/archive/v#{version}.tar.gz"
 	head "https://github.com/microsoft/git.git", :shallow => false
   
+	bottle do
+		root_url "https://msgitbrewtest.blob.core.windows.net/bottles"
+		sha256 "64b6f9a65dff7a003dc4ebff80fe3dcaf41e6d96081cb45a6b82e2162ee52970" => :catalina
+	end
+  
 	depends_on "gettext"
 	depends_on "pcre2"
   
