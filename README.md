@@ -18,7 +18,7 @@ The following packages are available in this Tap:
 
 Install with `brew install <formula>`
 
-- _none_
+- [Microsoft Git](https://github.com/microsoft/git) (`microsoft-git`)
 
 ### Casks
 
@@ -26,6 +26,7 @@ Install with `brew cask install <cask>`
 
 - [Git Credential Manager Core](https://aka.ms/gcmcore) (`git-credential-manager-core`)
 - [Scalar](https://github.com/microsoft/scalar) (`scalar`)
+- [Scalar for Azure Repos](https://github.com/microsoft/scalar) (`scalar-azrepos`)
 
 Please report any product bugs and issues in their respective projects.
 
