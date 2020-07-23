@@ -11,7 +11,7 @@ cask 'scalar-azrepos' do
 
   conflicts_with cask: 'scalar'
 
-  depends_on formula: 'microsoft-git'
+  depends_on cask: 'microsoft-git'
   depends_on cask: 'git-credential-manager-core'
 
   uninstall script: {
