@@ -1,6 +1,6 @@
 cask 'scalar-azrepos' do
-  version '20.07.174.1'
-  sha256 'd6545b51ad6ef7c407f894230027bffd253d595e5d0fee0a290ddad4f7ceef97'
+  version '20.10.178.6'
+  sha256 'b4d9293cb0a2888a327c7d9488d36b251b7905d700892eb1abd924ec907fb260'
 
   url "https://github.com/microsoft/scalar/releases/download/v#{version}/Installers_macOS_Release.zip"
 
