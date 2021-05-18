@@ -5,7 +5,7 @@ cask 'git-credential-manager-core' do
   version "2.0.452.3248"
   sha256 '8026fa9589a41d5a7b56e17f7001f84053d05eab03d0381097d1696dca43ae78'
 
-  url "https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v#{version.major_minor_patch}-beta/gcmcore-osx-#{version}.pkg"
+  url "https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v#{version.major_minor_patch}/gcmcore-osx-#{version}.pkg"
 
   pkg "gcmcore-osx-#{version}.pkg", allow_untrusted: true
 
