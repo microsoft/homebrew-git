@@ -10,6 +10,8 @@ cask 'microsoft-git' do
   pkg "git-#{version}-intel-universal-snow-leopard.pkg", allow_untrusted: true
 
   conflicts_with formula: 'git'
+  
+  depends_on cask: 'git-credential-manager-core'
 
   uninstall script: {
             executable: '/usr/local/git/uninstall.sh',
