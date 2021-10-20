@@ -2,8 +2,8 @@ cask 'microsoft-git' do
   name 'Microsoft-fork of Git'
   homepage 'https://github.com/microsoft/git'
 
-  version '2.33.0.vfs.0.0'
-  sha256 'b7b09053006b318b28ad12c90d37363c1b6fafc91af949d965fda24ffbcd602c'
+  version '2.33.0.vfs.0.3'
+  sha256 '9e992f635ba0e4b4636c40a7e01f8e572da2b70137ba3a301150308071dbcffa'
 
   url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-universal-snow-leopard.pkg"
 
