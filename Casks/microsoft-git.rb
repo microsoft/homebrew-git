@@ -5,9 +5,9 @@ cask 'microsoft-git' do
   version '2.33.0.vfs.0.3'
   sha256 '9e992f635ba0e4b4636c40a7e01f8e572da2b70137ba3a301150308071dbcffa'
 
-  url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-universal-snow-leopard.pkg"
+  url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-x86_64-catalina.pkg"
 
-  pkg "git-#{version}-intel-universal-snow-leopard.pkg", allow_untrusted: true
+  pkg "git-#{version}-intel-x86_64-catalina.pkg", allow_untrusted: true
 
   conflicts_with formula: 'git'
   
