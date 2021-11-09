@@ -22,7 +22,7 @@ Install with `brew install <formula>`
 
 ### Casks
 
-Install with `brew cask install <cask>`
+Install with `brew install --cask <cask>`
 
 - [Git Credential Manager Core](https://aka.ms/gcmcore) (`git-credential-manager-core`)
 - [Microsoft Git](https://github.com/microsoft/git) (`microsoft-git`)
