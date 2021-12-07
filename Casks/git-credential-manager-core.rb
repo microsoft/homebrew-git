@@ -1,11 +1,11 @@
 cask 'git-credential-manager-core' do
-  name 'Git Credential Manager Core'
-  homepage 'https://aka.ms/gcmcore'
+  name 'Git Credential Manager'
+  homepage 'https://aka.ms/gcm'
 
   version "2.0.605.12951"
   sha256 'da72cce512ec40356aa137328843b599d46d123e7fbb80626de81749329f8a7b'
 
-  url "https://github.com/microsoft/Git-Credential-Manager-Core/releases/download/v#{version.major_minor_patch}/gcmcore-osx-#{version}.pkg"
+  url "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v#{version.major_minor_patch}/gcmcore-osx-#{version}.pkg"
 
   pkg "gcmcore-osx-#{version}.pkg", allow_untrusted: true
 
