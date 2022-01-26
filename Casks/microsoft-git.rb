@@ -2,8 +2,8 @@ cask 'microsoft-git' do
   name 'Microsoft-fork of Git'
   homepage 'https://github.com/microsoft/git'
 
-  version '2.34.1.vfs.0.0'
-  sha256 '26915c0c089dfd6c0d7a78d3aaa2ddc2907aabb3c2d05c6e9c33bf938dfce271'
+  version '2.35.0.vfs.0.0'
+  sha256 '1ce7d2165d9f160496f868ba469846fb0730699bc1d8e43195afdf470d192c8d'
 
   url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-x86_64-catalina.pkg"
 
