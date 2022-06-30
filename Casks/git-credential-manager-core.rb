@@ -5,9 +5,9 @@ cask 'git-credential-manager-core' do
   version "2.0.779"
   sha256 '4df32ca342b6ec7661b0143b96b78a069fa309174af82678bcdb21ce8e85ebee'
 
-  url "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v#{version.major_minor_patch}/gcmcore-osx-x64-#{version.major_minor_patch}.pkg"
+  url "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v#{version.major_minor_patch}/gcm-osx-x64-#{version.major_minor_patch}.pkg"
 
-  pkg "gcmcore-osx-x64-#{version}.pkg", allow_untrusted: true
+  pkg "gcm-osx-x64-#{version}.pkg", allow_untrusted: true
 
   uninstall script: {
                       executable: '/usr/local/share/gcm-core/uninstall.sh',
