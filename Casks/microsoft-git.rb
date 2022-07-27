@@ -5,9 +5,9 @@ cask 'microsoft-git' do
   version '2.37.1.vfs.0.1'
   sha256 '9fca489a5342fce19e8bb83da9cf9073d449666517008ad2dc2ecc5678d4c004'
 
-  url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-x86_64-catalina.pkg"
+  url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-x86_64.pkg"
 
-  pkg "git-#{version}-intel-x86_64-catalina.pkg", allow_untrusted: true
+  pkg "git-#{version}-intel-x86_64.pkg", allow_untrusted: true
 
   conflicts_with formula: 'git'
   
