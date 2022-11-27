@@ -14,7 +14,7 @@ cask 'git-credential-manager-core' do
   url "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v#{version.major_minor_patch}/gcm-osx-#{arch}-#{version.major_minor_patch}.pkg"
   pkg "gcm-osx-#{arch}-#{version}.pkg", allow_untrusted: true
   uninstall script: {
-                      executable: "#{prefix}/share/gcm-core/uninstall.sh",
+                      executable: "/usr/local/share/gcm-core/uninstall.sh",
                       sudo:       true,
                     },
             pkgutil: 'com.microsoft.GitCredentialManager'
