@@ -3,11 +3,11 @@ cask 'git-credential-manager-core' do
   name 'Git Credential Manager'
   homepage 'https://aka.ms/gcm'
 
-  version "2.0.931"
+  version "2.1.2"
   if Hardware::CPU.intel?
-    sha256 '61ad3da8efecb576e3f0960fe15bb919e801e21c9fb55deeec0128a74724c6cc'
+    sha256 '475b7b7f9537ce61d6ec1337f4aa566af51a5885fb66b4086f978909cd743812'
   else
-    sha256 '8d6e168c2ea1d359cfe3ad8591cb5f61b45be42ad4f44d249cc8c9994e3cb097'
+    sha256 'e56c371c964fdd12434058b9672b7fa2cea02b4acae3d5ec5aa9581fa88a2f15'
   end
 
   url "https://github.com/GitCredentialManager/git-credential-manager/releases/download/v#{version.major_minor_patch}/gcm-osx-#{arch}-#{version.major_minor_patch}.pkg"
