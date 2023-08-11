@@ -24,7 +24,6 @@ Install with `brew install <formula>`
 
 Install with `brew install --cask <cask>`
 
-- [Git Credential Manager Core](https://aka.ms/gcmcore) (`git-credential-manager-core`)
 - [Microsoft Git](https://github.com/microsoft/git) (`microsoft-git`)
 - [Scalar](https://github.com/microsoft/scalar) (`scalar`)
 - [Scalar for Azure Repos](https://github.com/microsoft/scalar) (`scalar-azrepos`)
