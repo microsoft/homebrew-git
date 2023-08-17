@@ -11,7 +11,7 @@ cask 'microsoft-git' do
 
   conflicts_with formula: 'git'
   
-  depends_on cask: 'git-credential-manager'
+  depends_on cask: 'homebrew/cask/git-credential-manager'
 
   uninstall script: {
             executable: '/usr/local/git/uninstall.sh',
