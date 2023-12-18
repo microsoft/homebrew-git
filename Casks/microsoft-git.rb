@@ -2,8 +2,8 @@ cask 'microsoft-git' do
   name 'Microsoft-fork of Git'
   homepage 'https://github.com/microsoft/git'
 
-  version '2.42.0.vfs.0.3'
-  sha256 '139728e025ea934d69834ebf3870a5b9e26476e6ae14f6fe6ebe754813e2cf8c'
+  version '2.43.0.vfs.0.0'
+  sha256 '79b910dec102bc9493c19e18a1b6e620b00d6a36f134d3795b96c4a528cac49b'
 
   url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-x86_64.pkg"
 
