@@ -5,9 +5,9 @@ cask 'microsoft-git' do
   version '2.43.0.vfs.0.0'
   sha256 '79b910dec102bc9493c19e18a1b6e620b00d6a36f134d3795b96c4a528cac49b'
 
-  url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-intel-x86_64.pkg"
+  url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-universal.pkg"
 
-  pkg "git-#{version}-intel-x86_64.pkg", allow_untrusted: true
+  pkg "git-#{version}-universal.pkg", allow_untrusted: true
 
   conflicts_with formula: 'git'
   
