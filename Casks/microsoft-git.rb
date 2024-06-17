@@ -2,8 +2,8 @@ cask 'microsoft-git' do
   name 'Microsoft-fork of Git'
   homepage 'https://github.com/microsoft/git'
 
-  version '2.45.0.vfs.0.0'
-  sha256 '21f2e140f34a2aabcc199968f4b27929f93b85e9ced7d6d2adbe78e4a95229e0'
+  version '2.45.2.vfs.0.1'
+  sha256 'cd345364ea8502e50f144c89ab470e7355d422282f9218d7e1bd8a57b30faf45'
 
   url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-universal.pkg"
 
