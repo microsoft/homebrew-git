@@ -12,9 +12,9 @@ cask 'microsoft-git' do
   depends_on cask: 'homebrew/cask/git-credential-manager'
 
   uninstall script: {
-            executable: '/usr/local/git/uninstall.sh',
-            args:       ['--yes'],
-            sudo:       true,
-            },
-        pkgutil: 'com.git.pkg'
+                      executable: '/usr/local/git/uninstall.sh',
+                      args:       ['--yes'],
+                      sudo:       true,
+                    },
+            pkgutil: 'com.git.pkg'
 end
