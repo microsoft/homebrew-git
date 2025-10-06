@@ -8,8 +8,6 @@ cask 'microsoft-git' do
   url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-universal.pkg"
 
   pkg "git-#{version}-universal.pkg", allow_untrusted: true
-
-  conflicts_with formula: 'git'
   
   depends_on cask: 'homebrew/cask/git-credential-manager'
 
