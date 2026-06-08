@@ -3,7 +3,7 @@ cask 'microsoft-git' do
   homepage 'https://github.com/microsoft/git'
 
   version '2.54.0.vfs.0.2'
-  sha256 '8e8052a0c2d1b3568998cc84bea4b37c23a7db71d547cf8f34b6b109f2f55a30'
+  sha256 '983dd1b1dda9a755a21981b5055e927bb4bcb01ca67f77f819dea095b93abde9'
 
   url "https://github.com/microsoft/git/releases/download/v#{version}/git-#{version}-universal.pkg"
 
